@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".AboutUs">
+
+    <RelativeLayout
+        android:id="@+id/scratch_view_behind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#818B8D" >
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"/>
+    </RelativeLayout>
+
+    <com.jackpocket.scratchoff.views.ScratchableLinearLayout
+        android:id="@+id/scratch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3C9ADF"
+        android:layout_margin="50dp">
+        <ImageView
+            android:id="@+id/image_above"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:src="@drawable/iete" />
+    </com.jackpocket.scratchoff.views.ScratchableLinearLayout>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="429dp"
+        android:layout_marginBottom="31dp"
+        android:text="Scratch to reveal the QR Code and collect the goodies !!"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

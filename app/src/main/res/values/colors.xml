@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b0d0d</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="Coral">#ff7f50</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="BurlyWood">#DEB887</color>
+    <color name="Green">#008000</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="primary_material_dark_1">#0b0d0d</color>
+    <color name="primary_dark_material_dark">#000000</color>
+</resources>
