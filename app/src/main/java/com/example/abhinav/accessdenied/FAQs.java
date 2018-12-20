@@ -6,9 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ramotion.foldingcell.FoldingCell;
-
-import spencerstudios.com.bungeelib.Bungee;
-
 public class FAQs extends AppCompatActivity {
 
     @Override

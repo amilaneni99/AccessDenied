@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -70,9 +70,11 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
+                android:id="@+id/call"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:onClick="call">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -121,71 +123,88 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ietevit.@vit.ac.in"
+                    android:text="ietevit@vit.ac.in"
                     android:textColor="#000"
                     android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
-
-        <EditText
-            android:id="@+id/name"
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="#FFF"
-            android:cursorVisible="true"
-            android:ems="10"
-            android:hint="Enter your Name"
-            android:inputType="textEmailAddress"
-            android:padding="20dp"
-            android:textColor="#000"
-            android:textColorHint="#000"
-            android:textCursorDrawable="@null" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/msg"
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="#FFF"
+                android:cursorVisible="true"
+                android:hint="Enter your Name"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:minLines="1"
+                android:padding="20dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textCursorDrawable="@null"
+                app:layout_constraintBottom_toTopOf="@+id/msg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <EditText
+                android:id="@+id/msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFF"
+                android:cursorVisible="true"
+                android:hint="Enter the Message"
+                android:inputType="text|textLongMessage"
+                android:lines="2"
+                android:maxLines="5"
+                android:padding="20dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textCursorDrawable="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="20dp"
-            android:background="#FFF"
-            android:cursorVisible="true"
-            android:ems="10"
-            android:hint="Enter the Message"
-            android:inputType="textEmailAddress"
-            android:maxLines="10"
-            android:padding="20dp"
-            android:textColor="#000"
-            android:textColorHint="#000"
-            android:textCursorDrawable="@null" />
+            android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/send"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="20dp"
-            android:background="#000"
-            android:text="Send"
-            android:textColor="#FFF" />
-
+            <Button
+                android:id="@+id/send"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#000"
+                android:text="Send"
+                android:textColor="#FFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
 
     </LinearLayout>
     </ScrollView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Made with ❤ by IETE"
-        android:textSize="20sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:paddingBottom="20dp"/>
-</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

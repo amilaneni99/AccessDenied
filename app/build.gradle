@@ -32,14 +32,12 @@ dependencies {
     implementation 'com.android.support:cardview-v7:27.1.1'
     implementation 'com.ramotion.foldingcell:folding-cell:1.2.2'
     implementation 'com.github.devlight:infinitecycleviewpager:1.0.2'
-    implementation 'com.github.Binary-Finery:Bungee:master-SNAPSHOT'
     implementation 'com.jackpocket:scratchoff:1.3.0'
     implementation 'com.google.firebase:firebase-core:16.0.5'
     implementation 'com.google.firebase:firebase-auth:16.0.5'
     implementation 'com.google.firebase:firebase-database:16.0.5'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
-    implementation 'com.google.android.gms:play-services-maps:16.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'

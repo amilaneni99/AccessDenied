@@ -27,4 +27,16 @@
         android:text="Access Denied"
         android:textSize="35sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:paddingBottom="20dp"
+        android:textColor="#000"
+        android:fontFamily="@font/nothing_you_could_do"
+        android:text="Made with ❤ by IETE"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
 </RelativeLayout>

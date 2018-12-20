@@ -9,8 +9,6 @@ import com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
-import spencerstudios.com.bungeelib.Bungee;
-
 public class Sponsors extends AppCompatActivity {
     List<Integer> listimages = new ArrayList<>();
 
@@ -32,8 +30,6 @@ public class Sponsors extends AppCompatActivity {
     private void initData() {
         listimages.add(R.drawable.github);
         listimages.add(R.drawable.hackerrank);
-        listimages.add(R.drawable.photography);
-        listimages.add(R.drawable.yearbook);
         listimages.add(R.drawable.redback);
         listimages.add(R.drawable.bugsee);
         listimages.add(R.drawable.estimote);
@@ -42,7 +38,6 @@ public class Sponsors extends AppCompatActivity {
     @Override
     public boolean onSupportNavigateUp() {
         finish();
-        Bungee.fade(this);
         return true;
     }
 }
