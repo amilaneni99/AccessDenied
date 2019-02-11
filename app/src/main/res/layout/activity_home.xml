@@ -19,7 +19,7 @@
         app:tabMode="fixed"
         android:id="@+id/tablayout_id"
         app:tabTextColor="#FFF"
-        app:tabIndicatorColor="@color/LightSeaGreen"
+        app:tabIndicatorColor="#FF0000"
         app:tabIndicatorHeight="4dp"
         app:tabSelectedTextColor="#FFF"
         android:background="@color/colorPrimary"/>
