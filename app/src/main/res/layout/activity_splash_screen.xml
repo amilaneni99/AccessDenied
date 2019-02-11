@@ -8,8 +8,8 @@
     tools:context=".SplashScreen">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="156dp"
-        android:layout_height="164dp"
+        android:layout_width="156sp"
+        android:layout_height="164sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="97dp"
@@ -32,11 +32,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="0dp"
-        android:paddingBottom="20dp"
-        android:textColor="#000"
         android:fontFamily="@font/nothing_you_could_do"
+        android:paddingBottom="20dp"
         android:text="Made with ❤ by IETE"
         android:textAlignment="center"
+        android:textColor="#000"
         android:textSize="20sp" />
 
 </RelativeLayout>

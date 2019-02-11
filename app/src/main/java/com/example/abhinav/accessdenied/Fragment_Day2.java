@@ -42,7 +42,7 @@ public class Fragment_Day2 extends Fragment {
         myRow11.setTitle("Getting Ready for Pitch 3.0");
         myRow11.setDescription("12:00 a.m - 2:00 a.m");
         myRow11.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow11.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+        //myRow11.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow11.setBackgroundSize(60);
         myRow11.setImageSize(60);
         myRow11.setBellowLineSize(6);
@@ -50,7 +50,7 @@ public class Fragment_Day2 extends Fragment {
 
         myRow12.setTitle("Refreshments");
         myRow12.setDescription("2:00 a.m - 2:30 a.m");
-        myRow12.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+        //myRow12.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow12.setBellowLineColor(Color.argb(255,0,0,0));
         myRow12.setBellowLineSize(6);
         myRow12.setBackgroundSize(60);
@@ -59,7 +59,7 @@ public class Fragment_Day2 extends Fragment {
         myRow13.setTitle("Getting Ready for Pitch 3.0");
         myRow13.setDescription("2:30 a.m - 6:30 p.m");
         myRow13.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow13.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+       // myRow13.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow13.setBackgroundSize(60);
         myRow13.setImageSize(60);
         myRow13.setBellowLineSize(6);
@@ -67,7 +67,7 @@ public class Fragment_Day2 extends Fragment {
         myRow14.setTitle("Pitch 3.0");
         myRow14.setDescription("6:30 a.m - 8:00 a.m");
         myRow14.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow14.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+        //myRow14.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow14.setBackgroundSize(60);
         myRow14.setImageSize(60);
         myRow14.setBellowLineSize(6);
@@ -75,7 +75,7 @@ public class Fragment_Day2 extends Fragment {
         myRow15.setTitle("Breakfast");
         myRow15.setDescription("8:00 a.m - 9:00 a.m");
         myRow15.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow15.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+       // myRow15.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow15.setBackgroundSize(60);
         myRow15.setImageSize(60);
         myRow15.setBellowLineSize(6);
@@ -83,7 +83,7 @@ public class Fragment_Day2 extends Fragment {
         myRow16.setTitle("Results 1.0");
         myRow16.setDescription("9:00 a.m - 9:10 a.m");
         myRow16.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow16.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+       // myRow16.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow16.setBackgroundSize(60);
         myRow16.setImageSize(60);
         myRow16.setBellowLineSize(6);
@@ -91,7 +91,7 @@ public class Fragment_Day2 extends Fragment {
         myRow17.setTitle("Final Pitch of Top 10 Teams");
         myRow17.setDescription("9:10 a.m - 9:40 a.m");
         myRow17.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow17.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+        //myRow17.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow17.setBackgroundSize(60);
         myRow17.setImageSize(60);
         myRow17.setBellowLineSize(6);
@@ -99,7 +99,7 @@ public class Fragment_Day2 extends Fragment {
         myRow18.setTitle("Results and Prize Distribution");
         myRow18.setDescription("9:40 a.m - 10:30 a.m");
         myRow18.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow18.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+        //myRow18.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow18.setBackgroundSize(60);
         myRow18.setImageSize(60);
         myRow18.setBellowLineSize(6);
@@ -107,7 +107,7 @@ public class Fragment_Day2 extends Fragment {
         myRow19.setTitle("Closing Ceremony");
         myRow19.setDescription("10:30 p.m - 11:00 p.m");
         myRow19.setBellowLineColor(Color.argb(255,0,0,0));
-        myRow19.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete2));
+        //myRow19.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow19.setBackgroundSize(60);
         myRow19.setImageSize(60);
         myRow19.setBellowLineSize(6);

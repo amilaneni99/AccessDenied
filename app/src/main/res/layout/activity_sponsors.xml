@@ -6,15 +6,51 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     tools:context=".Sponsors">
-    <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
-        android:id="@+id/horizontalcycle"
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
-        app:icvp_scroll_duration="250"
-        app:icvp_center_page_scale_offset="30dp"
-        app:icvp_max_page_scale="0.8"
-        app:icvp_min_page_scale="0.55"
-        app:icvp_medium_scaled="false" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="15sp"
+            android:text="Title Sponsor"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fortinet"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="15sp"
+            android:text="Our Sponsors"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+            android:id="@+id/horizontalcycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:icvp_center_page_scale_offset="30dp"
+            app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:icvp_max_page_scale="0.8"
+            app:icvp_medium_scaled="false"
+            app:icvp_min_page_scale="0.55" />
+    </LinearLayout>
 
 </RelativeLayout>

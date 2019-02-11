@@ -27,14 +27,16 @@
         android:layout_height="wrap_content"
         android:background="#3C9ADF"
         android:layout_margin="50dp">
+
         <ImageView
             android:id="@+id/image_above"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center|fill"
             android:adjustViewBounds="true"
             android:gravity="center"
-            android:src="@drawable/iete" />
+            android:scaleType="fitXY"
+            android:src="@drawable/gift" />
     </com.jackpocket.scratchoff.views.ScratchableLinearLayout>
 
     <TextView
@@ -49,8 +51,9 @@
         android:layout_marginTop="412dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="21dp"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/nothing_you_could_do"
         android:paddingLeft="20dp"
+        android:paddingTop="50dp"
         android:paddingRight="20dp"
         android:text="Scratch to reveal the QR Code and collect the goodies !!"
         android:textAlignment="center"

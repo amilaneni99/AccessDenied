@@ -54,6 +54,17 @@ public class FAQs extends AppCompatActivity {
                 foldingCell4.toggle(false);
             }
         });
+
+        final FoldingCell foldingCell5 = findViewById(R.id.folding_cell5);
+
+        foldingCell5.initialize(20, 1000, R.color.BurlyWood, 0);
+
+        foldingCell5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                foldingCell5.toggle(false);
+            }
+        });
     }
     public boolean onSupportNavigateUp() {
         finish();

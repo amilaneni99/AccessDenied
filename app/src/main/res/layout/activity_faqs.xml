@@ -81,7 +81,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="202dp"
-                        android:text="The Event will be conducted on March 16 and March 17"
+                        android:text="The Event will be conducted on March 23 and March 24"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:textColor="#000"
@@ -127,7 +127,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="202dp"
-                        android:text="We have a lot of goodies and prizes which will be revealed soon!"
+                        android:text="We have prizes worth 95k waiting for you guys!"
                         android:textAlignment="center"
                         android:layout_gravity="center"
                         android:textColor="#000"
@@ -174,7 +174,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="202dp"
                         android:textColor="#000"
-                        android:text="The cost of the event is Rs.250 exclusive of GST."
+                        android:text="The cost of the event is ₹50 exclusive of GST."
                         android:padding="35dp"
                         android:textAlignment="center"
                         android:layout_gravity="center"
@@ -195,6 +195,53 @@
                         android:layout_height="100dp"
                         android:textColor="#FFF"
                         android:text="What is the cost of the event?"
+                        android:textAlignment="center"
+                        android:padding="35dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"/>
+
+                </FrameLayout>
+            </com.ramotion.foldingcell.FoldingCell>
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/folding_cell5"
+                android:layout_margin="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+                ​<FrameLayout
+                android:id="@+id/cell_content_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d8ffd9"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:textColor="#000"
+                    android:text="Just bring a valid student ID, laptop and hardware components (if required)"
+                    android:padding="35dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="25sp"/>
+
+            </FrameLayout>
+                ​
+
+                <FrameLayout
+                    android:id="@+id/cell_title_view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000"
+                    android:elevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:textColor="#FFF"
+                        android:text="What should I bring for the hack?"
                         android:textAlignment="center"
                         android:padding="35dp"
                         android:textSize="20sp"

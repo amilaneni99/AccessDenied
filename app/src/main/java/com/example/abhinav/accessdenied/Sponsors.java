@@ -20,6 +20,7 @@ public class Sponsors extends AppCompatActivity {
         assert actionBar!=null;
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeAsUpIndicator(R.drawable.ic_keyboard_backspace_black_24dp);
+        actionBar.setTitle("Sponsors");
 
         initData();
 
@@ -28,11 +29,27 @@ public class Sponsors extends AppCompatActivity {
         pager.setAdapter(adapter);
     }
     private void initData() {
+        listimages.add(R.drawable.foxmula);
+        listimages.add(R.drawable.markytics);
         listimages.add(R.drawable.github);
+        listimages.add(R.drawable.monkey);
         listimages.add(R.drawable.hackerrank);
+        listimages.add(R.drawable.hackerearth);
+        listimages.add(R.drawable.docker);
         listimages.add(R.drawable.redback);
+        listimages.add(R.drawable.mlh);
+        listimages.add(R.drawable.digitalocean);
         listimages.add(R.drawable.bugsee);
         listimages.add(R.drawable.estimote);
+        listimages.add(R.drawable.balsamiq);
+        listimages.add(R.drawable.hasura);
+        listimages.add(R.drawable.jet);
+        listimages.add(R.drawable.sketch);
+        listimages.add(R.drawable.travis);
+        listimages.add(R.drawable.stickermule);
+        listimages.add(R.drawable.kothari);
+
+
     }
 
     @Override
