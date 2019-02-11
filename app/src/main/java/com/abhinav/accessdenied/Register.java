@@ -1,4 +1,4 @@
-package com.example.abhinav.accessdenied;
+package com.abhinav.accessdenied;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.example.abhinav.accessdenied;
+package com.abhinav.accessdenied;
 
 import android.graphics.BitmapFactory;
 import android.graphics.Color;

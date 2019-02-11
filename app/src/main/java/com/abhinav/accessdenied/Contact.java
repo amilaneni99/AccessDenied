@@ -1,4 +1,4 @@
-package com.example.abhinav.accessdenied;
+package com.abhinav.accessdenied;
 
 import android.Manifest;
 import android.content.ActivityNotFoundException;

@@ -1,4 +1,4 @@
-package com.example.abhinav.accessdenied;
+package com.abhinav.accessdenied;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;

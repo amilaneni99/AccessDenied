@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:739140839811:android:4bb1f78942427d71",
         "android_client_info": {
-          "package_name": "com.example.abhinav.accessdenied"
+          "package_name": "com.abhinav.accessdenied"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "739140839811-eqate1plt24vh4eu7q3tadd7kgrhfbil.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.abhinav.accessdenied",
+            "package_name": "com.abhinav.accessdenied",
             "certificate_hash": "5a2b540f9ed8bfecee9a94a4d79f003f8a8e098d"
           }
         },
