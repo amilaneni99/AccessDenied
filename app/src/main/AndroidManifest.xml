@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abhinav.accessdenied">
-
+    package="com.ietevit.accessdenied">
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -18,8 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name=".SplashScreen"
+            android:name="com.ietevit.accessdenied.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -29,28 +29,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Home"
+            android:name="com.ietevit.accessdenied.Home"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Sponsors"
+            android:name="com.ietevit.accessdenied.Sponsors"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FAQs"
+            android:name="com.ietevit.accessdenied.FAQs"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AboutUs"
+            android:name="com.ietevit.accessdenied.AboutUs"
             android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_iete" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/Coral" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.ietevit.accessdenied.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".Contact" />
-        <activity android:name=".Register"></activity>
+        <activity android:name="com.ietevit.accessdenied.Contact" />
+        <activity android:name="com.ietevit.accessdenied.Register" />
     </application>
 
 </manifest>

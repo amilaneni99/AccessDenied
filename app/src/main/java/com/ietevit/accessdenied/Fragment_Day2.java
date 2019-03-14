@@ -1,4 +1,4 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -12,10 +12,14 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.ietevit.accessdenied.R;
+
 import org.qap.ctimelineview.TimelineRow;
 import org.qap.ctimelineview.TimelineViewAdapter;
 
 import java.util.ArrayList;
+
+import static java.security.AccessController.getContext;
 
 public class Fragment_Day2 extends Fragment {
     ArrayList<TimelineRow> timelineRowsList2 = new ArrayList<>();
@@ -33,14 +37,10 @@ public class Fragment_Day2 extends Fragment {
         TimelineRow myRow13 = new TimelineRow(13);
         TimelineRow myRow14 = new TimelineRow(14);
         TimelineRow myRow15 = new TimelineRow(15);
-        TimelineRow myRow16 = new TimelineRow(16);
-        TimelineRow myRow17 = new TimelineRow(17);
-        TimelineRow myRow18 = new TimelineRow(18);
-        TimelineRow myRow19 = new TimelineRow(19);
 
 
-        myRow11.setTitle("Getting Ready for Pitch 3.0");
-        myRow11.setDescription("12:00 a.m - 2:00 a.m");
+        myRow11.setTitle("Breakfast");
+        myRow11.setDescription("8:00 a.m - 9:00 a.m");
         myRow11.setBellowLineColor(Color.argb(255,0,0,0));
         //myRow11.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow11.setBackgroundSize(60);
@@ -48,79 +48,45 @@ public class Fragment_Day2 extends Fragment {
         myRow11.setBellowLineSize(6);
 
 
-        myRow12.setTitle("Refreshments");
-        myRow12.setDescription("2:00 a.m - 2:30 a.m");
+        myRow12.setTitle("Pitch 1.0 (Shortlisting Teams)");
+        myRow12.setDescription("10:30 a.m - 11:30 a.m");
         //myRow12.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow12.setBellowLineColor(Color.argb(255,0,0,0));
         myRow12.setBellowLineSize(6);
         myRow12.setBackgroundSize(60);
         myRow12.setImageSize(60);
 
-        myRow13.setTitle("Getting Ready for Pitch 3.0");
-        myRow13.setDescription("2:30 a.m - 6:30 p.m");
+        myRow13.setTitle("Lunch");
+        myRow13.setDescription("12:30 p.m - 1:30 p.m");
         myRow13.setBellowLineColor(Color.argb(255,0,0,0));
        // myRow13.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow13.setBackgroundSize(60);
         myRow13.setImageSize(60);
         myRow13.setBellowLineSize(6);
 
-        myRow14.setTitle("Pitch 3.0");
-        myRow14.setDescription("6:30 a.m - 8:00 a.m");
+        myRow14.setTitle("Final Pitch");
+        myRow14.setDescription("5:00 p.m - 6:00 p.m");
         myRow14.setBellowLineColor(Color.argb(255,0,0,0));
         //myRow14.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow14.setBackgroundSize(60);
         myRow14.setImageSize(60);
         myRow14.setBellowLineSize(6);
 
-        myRow15.setTitle("Breakfast");
-        myRow15.setDescription("8:00 a.m - 9:00 a.m");
+        myRow15.setTitle("Prize Distribution");
+        myRow15.setDescription("6:30 p.m - 7:30 p.m");
         myRow15.setBellowLineColor(Color.argb(255,0,0,0));
        // myRow15.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
         myRow15.setBackgroundSize(60);
         myRow15.setImageSize(60);
         myRow15.setBellowLineSize(6);
 
-        myRow16.setTitle("Results 1.0");
-        myRow16.setDescription("9:00 a.m - 9:10 a.m");
-        myRow16.setBellowLineColor(Color.argb(255,0,0,0));
-       // myRow16.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
-        myRow16.setBackgroundSize(60);
-        myRow16.setImageSize(60);
-        myRow16.setBellowLineSize(6);
-
-        myRow17.setTitle("Final Pitch of Top 10 Teams");
-        myRow17.setDescription("9:10 a.m - 9:40 a.m");
-        myRow17.setBellowLineColor(Color.argb(255,0,0,0));
-        //myRow17.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
-        myRow17.setBackgroundSize(60);
-        myRow17.setImageSize(60);
-        myRow17.setBellowLineSize(6);
-
-        myRow18.setTitle("Results and Prize Distribution");
-        myRow18.setDescription("9:40 a.m - 10:30 a.m");
-        myRow18.setBellowLineColor(Color.argb(255,0,0,0));
-        //myRow18.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
-        myRow18.setBackgroundSize(60);
-        myRow18.setImageSize(60);
-        myRow18.setBellowLineSize(6);
-
-        myRow19.setTitle("Closing Ceremony");
-        myRow19.setDescription("10:30 p.m - 11:00 p.m");
-        myRow19.setBellowLineColor(Color.argb(255,0,0,0));
-        //myRow19.setImage(BitmapFactory.decodeResource(getResources(),R.drawable.iete));
-        myRow19.setBackgroundSize(60);
-        myRow19.setImageSize(60);
-        myRow19.setBellowLineSize(6);
 
         timelineRowsList2.add(myRow11);
         timelineRowsList2.add(myRow12);
         timelineRowsList2.add(myRow13);
         timelineRowsList2.add(myRow14);
         timelineRowsList2.add(myRow15);
-        timelineRowsList2.add(myRow16);
-        timelineRowsList2.add(myRow17);
-        timelineRowsList2.add(myRow18);
-        timelineRowsList2.add(myRow19);
+
 
         ArrayAdapter<TimelineRow> myAdapter2 = new TimelineViewAdapter(getContext(),0,timelineRowsList2,false);
 

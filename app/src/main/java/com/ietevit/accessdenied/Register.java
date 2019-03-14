@@ -1,4 +1,4 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
+
+import com.ietevit.accessdenied.R;
 
 public class Register extends AppCompatActivity {
 

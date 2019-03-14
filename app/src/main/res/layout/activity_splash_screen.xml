@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".SplashScreen">
+    tools:context="com.ietevit.accessdenied.SplashScreen">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="156sp"
@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="97dp"
-        android:src="@drawable/iete" />
+        android:src="@mipmap/ic_launcher_round" />
 
     <TextView
         android:id="@+id/textView"
@@ -23,8 +23,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="162dp"
         android:fontFamily="@font/nothing_you_could_do"
-        android:textColor="@color/colorPrimary"
         android:text="Access Denied"
+        android:textColor="@color/colorPrimary"
         android:textSize="35sp" />
 
     <TextView

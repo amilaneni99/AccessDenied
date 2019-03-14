@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".AboutUs">
+    tools:context="com.ietevit.accessdenied.AboutUs">
 
     <RelativeLayout
         android:id="@+id/scratch_view_behind"

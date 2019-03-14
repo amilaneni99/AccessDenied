@@ -1,9 +1,11 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.ietevit.accessdenied.R;
 import com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager;
 
 import java.util.ArrayList;
@@ -11,6 +13,7 @@ import java.util.List;
 
 public class Sponsors extends AppCompatActivity {
     List<Integer> listimages = new ArrayList<>();
+    ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

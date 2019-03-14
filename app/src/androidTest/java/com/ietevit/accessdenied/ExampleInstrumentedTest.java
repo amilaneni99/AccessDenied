@@ -1,4 +1,4 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.abhinav.accessdenied", appContext.getPackageName());
+        assertEquals("com.ietevit.accessdenied", appContext.getPackageName());
     }
 }

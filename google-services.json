@@ -10,15 +10,59 @@
       "client_info": {
         "mobilesdk_app_id": "1:739140839811:android:4bb1f78942427d71",
         "android_client_info": {
-          "package_name": "com.abhinav.accessdenied"
+          "package_name": "com.example.abhinav.accessdenied"
         }
       },
       "oauth_client": [
         {
-          "client_id": "739140839811-eqate1plt24vh4eu7q3tadd7kgrhfbil.apps.googleusercontent.com",
+          "client_id": "739140839811-jsn66j3mblmphe9luvt7hlmj1rm2a6r6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.abhinav.accessdenied",
+            "package_name": "com.example.abhinav.accessdenied",
+            "certificate_hash": "5a2b540f9ed8bfecee9a94a4d79f003f8a8e098d"
+          }
+        },
+        {
+          "client_id": "739140839811-gcr28lr31at40sfcrgiekuq8masfbm01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIOmNwFnYoX4MH2vrA4-TCnOtdUueU2L8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739140839811-gcr28lr31at40sfcrgiekuq8masfbm01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739140839811:android:61a46847b9a6aed6",
+        "android_client_info": {
+          "package_name": "com.ietevit.accessdenied"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739140839811-3gsfpb329oskl4b03jap47lpjcak5dek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ietevit.accessdenied",
             "certificate_hash": "5a2b540f9ed8bfecee9a94a4d79f003f8a8e098d"
           }
         },

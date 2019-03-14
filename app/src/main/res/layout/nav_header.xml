@@ -20,7 +20,7 @@
         android:adjustViewBounds="false"
         android:cropToPadding="false"
         android:scaleType="centerCrop"
-        android:src="@drawable/iete" />
+        android:src="@mipmap/ic_launcher_round" />
 
     <TextView
         android:id="@+id/nav_header_textView"

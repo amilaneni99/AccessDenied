@@ -1,4 +1,4 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 public class QRInfo {
     private String imageURL;

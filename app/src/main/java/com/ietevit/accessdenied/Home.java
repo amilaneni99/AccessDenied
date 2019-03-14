@@ -1,4 +1,4 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -10,8 +10,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toast;
 
+import com.ietevit.accessdenied.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity {

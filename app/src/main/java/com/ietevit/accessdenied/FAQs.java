@@ -1,10 +1,11 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ietevit.accessdenied.R;
 import com.ramotion.foldingcell.FoldingCell;
 public class FAQs extends AppCompatActivity {
 

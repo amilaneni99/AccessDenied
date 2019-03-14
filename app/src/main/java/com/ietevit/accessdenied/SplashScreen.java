@@ -1,8 +1,10 @@
-package com.abhinav.accessdenied;
+package com.ietevit.accessdenied;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.ietevit.accessdenied.R;
 
 public class SplashScreen extends AppCompatActivity {
 
